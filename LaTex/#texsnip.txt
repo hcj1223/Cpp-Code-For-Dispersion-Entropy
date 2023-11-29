@@ -1,0 +1,466 @@
+latexdiff main.tex revise.tex > diff.tex
+
+弧的符号
+\overset{\LARGE{\frown}}{AB}
+三角形全等\backcong
+三角形相似\backsim
+
+
+
+下面介绍几种改进算法：
+[\quad\quad(1)]
+
+\begin{enumerate}[\quad\quad(1)]
+\item 
+\item 
+\item 
+\end{enumerate}
+
+\iffalse　　%注释开始
+内容
+\fi　　　%注释结束
+
+\begin{example}
+
+\end{example}
+\begin{lstlisting}
+
+\end{lstlisting}
+
+运行结果：
+\begin{figure}[H]
+\small
+\centering
+\includegraphics[width=0.8\textwidth]{}
+\label{fig:}
+\end{figure}
+
+
+指示函数
+\mathbbm{1}
+
+``hello''
+‘大’
+“阿”
+
+
+
+% 算法开头
+\begin{algorithm}[H]
+\caption{算法}\label{algorithm}
+\KwIn{数据集$J(\theta_1, \theta_2, \cdots, \theta_d)$, $\varepsilon$\;}
+\KwOut{全局最小点$\mathbf{\theta}^{(k)}$\;}
+$k\leftarrow k + 1$\;
+\end{algorithm}
+
+% ===================分割线===================
+\todo[inline, color=green!40]{-----已经完成-----}
+% ===================分割线===================
+
+
+\graphicspath{{figure/}}
+\graphicspath{{figure/}{sketch/}}
+
+『感知器规则』
+
+\begin{verbatim}
+
+\end{verbatim}
+
+%\rule{\textwidth}{1pt}
+
+%中点
+·
+
+%反斜杠
+$\backslash$
+
+字母下方
+\mathop{a}\limits_{i=1}
+
+\bibitem{A19}
+Author. {\em \color{red}Title}. \url{https://www.cnblogs.com/tianzhen330/p/5551359.html}, 2019.
+
+箭头上文字
+0\stackrel{a}{\longrightarrow}1
+
+\overset{superscript} {argument}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ll|ll}
+\toprule
+项目 &  取值  &项目 & 取值\\
+\midrule[2pt]
+$NL$ & 1/2/3   &$\theta $     & [0,1]\\
+$NL$ & 1/2/3   &$\theta $     & [0,1]\\
+\bottomrule
+\end{tabular}
+\caption{中文表}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{90pt}|p{330pt}|}
+\toprule
+项目 & 取值\\
+\midrule[2pt]
+$NL$ & 1/2/3  \\
+\bottomrule
+\end{tabular}
+\caption{中文表}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{cc|c|c|c|c}
+\toprule[2pt]
+                   &      &\textbf{Min}  &\textbf{Max}   &\textbf{M}   &\textbf{SD}\\ \midrule[1pt]
+\multirow{2}*{男}  & 文科 &        1.00  &5.00	         &2.55        &1.36 \\
+                   & 理科  & 1.00	&4.00	&1.86	&0.95\\  
+\multirow{2}*{女}  & 文科 &        1.00  &5.00	         &2.48        &1.29 \\
+                   & 理科  & 1.00	&5.00	&2.10	&1.28\\  
+\bottomrule[2pt]
+\end{tabular}
+\caption{各类人群日常微博使用情况描述统计表}
+\label{tab:wei1}
+\end{table}
+
+% 推荐系统长表例子
+\begin{center}
+\begin{longtable}{|p{28pt}|p{200pt}|p{115pt}|p{28pt}|p{28pt}|}
+\toprule
+编号 & 标题 & 简述 & 论文 & 实现 \\
+\midrule
+01&FM模型理论和实践 & FM对组合特征进行分解，使用SGD & $\surd$ & $\surd$ \\\hline
+02&FFM模型理论和实践 & Field-aware FM & $\surd$  & TF \\\hline
+75&考虑CPM的评估方法csAUC & 考虑CPM 的评估方法csAUC & $\times$ &  $\times$ \\
+\bottomrule
+\end{longtable}
+\end{center}
+
+
+等式不要标号  \notag
+
+\begin{definition}[几何平均数]
+\begin{align}
+a
+\end{align}
+\end{definition}
+
+\begin{align}
+a
+\end{align}
+
+组合数
+\dbinom{n}{i}
+
+
+% 插入图片
+\begin{figure}[H]
+\centering
+\includegraphics[height=4cm]{sample}
+\caption{图形说明} \label{graph1}
+\end{figure}
+
+
+上标    ^{(i)}
+
+\int_{-\infty}^{+\infty}
+
+_出现时候在前面加上\变为\_
+
+\begin{align}
+\begin{array}{rc} {\rm minimize} & \|Wx\|_1 \\
+ {\rm s.t.} & WW^\top=I\\ \end{array}  
+\end{align}
+
+
+\begin{align}
+m(T) =
+\begin{cases}
+0 & \text{$T > T_c$} \\
+1 & \text{$T < T_c$}
+\end{cases}
+\end{align}
+
+
+
+\begin{align}\label{eqnname}
+\color{red}
+m(T) =
+\begin{cases}
+0 & \text{$T > T_c$} \\
+\bigl(1 - [\sinh 2 \beta J]^{-4} \bigr)^{\! 1/8} & \text{$T < T_c$}
+\end{cases}
+\end{align}
+
+
+
+\section{第一级标题}
+\subsection{第二级标题}
+\subsubsection{第三级标题}
+\paragraph{第四级标题}
+\subparagraph{第五级标题}
+
+
+
+\subsection{数学表达式}
+输入多行公式， 用align环境：
+\begin{align}
+\mathrm{ind}\left( \nabla \varphi ,v\right) &=\sum_{q=0}^\infty
+\left(
+-1\right) ^q\mathrm{rank}\,C_q\left( \varphi ,v\right) \nonumber\\
+&=\sum_{q=0}^\infty \left( -1\right) ^q\mathrm{rank}\,C_q\left(
+f,v+\psi \left( v\right) \right)\nonumber\\
+&=\mathrm{ind}\left( \nabla f,v+\psi \left( v\right) \right)
+\text{.}\label{e3}
+\end{align}
+若不想编号就用align*环境， 这时不需要写nonumber命令。 align比eqnarray的好处在于， 等号或不等号两边不会留太多空白。
+
+\begin{definition}[\bf Kuhn-Tucker点]
+如果$x^{\star}\in X$且存在$\lambda^{\star}\in (\lambda_1^\star, \cdots, \lambda_m^\star)^{\top}\in \mathfrak{R}^m$满足，
+则称$x^{\star}$是问题的Kuhn-Tucker点。
+\end{{definition}}
+
+\begin{{definition}}[\heiti 条件独立]
+ 	设$A, B\in\mathcal{F}, \mathbf{Y}$是一随机变量，如果以概率$1$成立
+ 	 \begin{align}
+      	P(AB|\mathbf{Y})=P(A|\mathbf{Y})P(B|\mathbf{Y})
+     \end{align}
+	则称$A$与$B$关于$\mathbf{Y}$是条件独立的。
+\end{{definition}}
+
+CASE环境1
+\begin{equation} f(x) =
+	\begin{cases}
+    	1 & -1<x<1 \\
+    	0 & \text{其他~$x$}
+    \end{cases}
+\end{equation}
+
+CASE环境2
+\begin{align}
+\left\{
+\begin{array}{ll}
+S_0 = S\\
+S_k = \frac{v}{V}S_{k-1}, \quad k = 1, 2, \cdots
+\end{array}
+\right.
+\end{align}
+
+\begin{lemma}[\heiti 法图引理]
+ 	若存在可积变量~$\mathbf{Y}$，使对于一切~$n\geq 1$，几乎必然成立~$x_n\geq \mathbf{Y}$，则
+	\begin{align}
+	  	E(\lim_{n\rightarrow \infty}X_n\leq \lim_{n\rightarrow \infty}EX_n)
+	\end{align}
+\end{lemma}
+
+% 定理
+\begin{theorem}[\heiti 勾股定理]
+ 	 直角三角形的两条直接边的平方和等于斜边的平方。
+ 	 \begin{align}
+      	a^2+b^2=c^2
+     \end{align}
+\end{theorem}
+
+\begin{theorem}[Morse不等式]\label{eqn:morse}
+设$f\in C^{1}\left( X, \mathsf{R}\right) $满足条件$\left( C\right)
+$， 则我们有
+\begin{align}
+\sum_{q=0}^\infty M_qt^q=\sum_{q=0}^\infty \beta _qt^q+\left(
+1+t\right) Q\left( t\right) \mbox{,} \label{e1}
+\end{align}
+这里$Q$是有非负整系数的形式级数。
+\end{theorem}
+
+\begin{proof}[证明]
+	这里显示了如何写前面一个定理的证明。
+\end{proof}
+
+\begin{remark}
+	这是一个注。 上面这个引理， 前面有段空白。 这是由于在导言区，我们用了
+
+\qquad\verb|\newtheorem{lemma}[theorem]{\indent 引理}|。\\
+当然， 对于\emph{定理、引理}等的定义， 为了格式的统一，
+要么都加\verb|\indent|， 要么都不要加。 如果决定要加\verb|\indent|，
+那么\emph{证明}前面也应该相应留一段空白。
+方法是将导言区对proofname的重定义改为
+
+\qquad\verb|\renewcommand{\proofname}{\indent\textbf{证明}}|。\\
+这时例如前面那个\emph{定理\ref{t1}的证明}就得改为
+
+\qquad\verb|\begin{proof}[\indent\textbf{定理\emph{\ref{t1}}的证明}]|。\\
+总之格式要统一。 注意这里\verb|\emph|的作用。
+\end{remark}
+
+
+\subsection{算法描述}
+\begin{algorithm}
+\SetCommentSty{textsf}
+\caption{最速下降算法}
+\KwIn{$r_i$ , $Background(T_i)$=${T_1,T_2,\ldots,T_n}$ and similarity threshold $\theta_r$}
+\KwOut{$con(r_i)$}
+\tcp{Comments}
+给出~$x_1\in\mathcal{R}^n$, $0\leq \varepsilon \leq 1$\;
+
+$k\leftarrow 1$\;
+
+利用精确线搜索求$\alpha_k>0$，即
+\begin{align}
+	f(x_k+\alpha_k d_k) \leftarrow \min_{\alpha>0}f(x_k+\alpha d_k)
+\end{align}
+
+\For{$j=1;j \le n;j \ne i$}{
+	$con(r_i)= \Phi$\;
+}
+
+\lFor{i=1 \emph{\KwTo} max}{mark i}
+
+\If{$(Jaro(r_i,r_m) \ge \theta _r) \wedge ((Jaro(r_i,r_m) \ge r^{maxSim}) $}{
+	用~$r_m$~来取代~$r^maxSim$\;
+}
+\Repeat{收敛}{
+	$\|x_i - x_j\|_A \geq 1$\;
+}
+\While{not end of $T_j$}{
+     计算函数~Jaro($r_i,r_m$)($r_m \in T_j$)的值\;
+ }
+\Return $con(r_i)$\;
+\end{algorithm}
+
+\begin{figure}
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=1in]{figure/eijkel2}
+    \caption{较小的图}
+    \label{graph2}
+  \end{minipage}%
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=1.5in]{figure/eijkel2}
+    \caption{稍大的图}
+    \label{graph3}
+  \end{minipage}
+\end{figure}
+
+\subsection{表格}
+\begin{table}[t]
+\centering
+\begin{tabular}{ccccccc}
+\hline\noalign{\smallskip}
+名称 & 误差1 & 误差2 & 误差3 \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+ a   & 1.00 & 1.00 & 1.00\\
+ b   & 1.00 & 1.00 & 1.00\\
+ c   & 1.00 & 1.00 & 1.00\\
+\noalign{\smallskip}\hline
+\end{tabular}
+ \caption{表格的标题}
+\end{table}
+
+
+\subsection{已知存在的问题及解决方案}
+
+经过测试， 有以下一些小问题:
+
+\begin{enumerate}
+  \item 不知为什么， 有时某些页面的页眉会用楷体排印。
+  \item 为保证页眉的正确:
+  \noindent 如果参考文献前的那章是在奇数页结束， 则要在\textcolor[rgb]{0.00,0.00,1.00}{该章}最后加上如下命令:\\
+  \verb|\newpage\rule{0ex}{1ex}\clearpage|\\
+  就象本文档一样。
+
+  \noindent 如果参考文献前的那章是在偶数页结束， 则要在该章最后加上如下命令:\\
+  \verb|\clearpage|
+
+  \item 对于标题太长的章， 命令\verb|\chap|生成的偶数页页眉会溢出。
+  这时可以手工指定该章的偶数页页眉。 即\\
+  \verb|\chap{章标题}|\\
+  \verb|\fancyhead[CE]{\chaptername\quad 章的短标题}|\\
+  \verb|\end{verbatim}|\\
+  就是说， 在\verb|\chap|命令后重新指定偶数页页眉。
+
+  如果节标题太长造成奇数页眉溢出， 就比较简单: 用\\
+  \verb|\section[节短标题]{节标题}|\\
+  就可以了。
+\end{enumerate}
+
+\newpage\rule{0ex}{1ex}\clearpage
+
+
+% ---------------
+% English Sample
+% ---------------
+
+\begin{definition}[\bf Effective Dissimilarity]
+Definition.
+\end{definition}
+
+
+\begin{theorem}[\bf Name]
+Lemma.
+\end{theorem}
+
+\begin{theorem}[\bf Name]
+	Theory.
+\end{theorem}
+
+\begin{cor}[\bf Name]
+	Corollary.
+\end{cor}
+
+\begin{align}
+\left[ \begin{array}{cc|r}
+3 & 4 & 5 \\ 1 & 3 & 729 \end{array} \right]
+\end{align}
+
+\begin{figure}[h]
+\begin{center}
+\scalebox{0.4}{\includegraphics{figure/eijkel2}}
+\caption{\label{fig:lj}Plot of the Lennard-Jones potential $u(r)$. The potential is characterized by a length $\sigma$
+and an energy $\epsilon$.}
+\end{center}
+\end{figure}
+
+
+\begin{algorithm}
+\SetCommentSty{textsf}
+\caption{XXX Algorithm}
+\KwIn{$r_i$ , $Background(T_i)$=${T_1,T_2,\ldots,T_n}$ and similarity threshold $\theta_r$}
+\KwOut{$con(r_i)$}
+\tcp{Comments}
+\For{$j=1;j \le n;j \ne i$}{
+	$con(r_i)= \Phi$\;
+}
+\If{$(Jaro(r_i,r_m) \ge \theta _r) \wedge ((Jaro(r_i,r_m) \ge r^{maxSim}) $}{
+	replace $r^maxSim$ with $r_m$\;
+}
+\Repeat{Convergence}{
+	$\|x_i - x_j\|_A \geq 1$\;
+}
+\While{not end of $T_j$}{
+     compute Jaro($r_i,r_m$)($r_m \in T_j$)\;
+ }
+\Return $con(r_i)$\;
+\end{algorithm}
+
+\lstinputlisting[label=samplecode,caption=A sample]{sample/code/Example.java}
+
+\begin{table}[t]
+\centering
+\begin{tabular}{ccccccc}
+\hline\noalign{\smallskip}
+ data set & error & error 2 & error 3 \\
+\noalign{\smallskip}\hline\noalign{\smallskip}
+ a   & 1.00 & 1.00 & 1.00\\
+ b   & 1.00 & 1.00 & 1.00\\
+ c   & 1.00 & 1.00 & 1.00\\
+\noalign{\smallskip}\hline
+\end{tabular}
+ \caption{My table}
+\end{table}
+
+
