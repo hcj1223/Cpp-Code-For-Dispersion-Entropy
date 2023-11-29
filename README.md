@@ -30,7 +30,7 @@ $$
 	      \end{align}
 $$
 
-#### 其中 $i=1,2,\cdots,L-(m-1)d$。然后，每个 $z_i^{m,c}$映射为一个分散模式(DispersionPattern) $\pi_{\nu_0,\nu_1,\cdots,\nu_{m-1}}$， $z_i^c=\nu_0,z_{i+d}^c=\nu_1,\cdots,z_{i+(m-1)d}^c=\nu_{m-1}$。每一 $z_i^{m,c}$可行分散模式总数为$c^m$。
+#### 其中 $i=1,2,\cdots,L-(m-1)d$。然后，每个 $z_i^{m,c}$映射为一个分散模式(DispersionPattern) $\pi_{\nu_0,\nu_1,\cdots,\nu_{m-1}}$， $z_i^c=\nu_0,z_{i+d}^c=\nu_1,\cdots,z_{i+(m-1)d}^c=\nu_{m-1}$。每一 $z_i^{m,c}$可行分散模式总数为 $c^m$。
 
 ### (3)
 
